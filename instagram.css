@@ -1,0 +1,127 @@
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.mobilephones {
+	background: url("bkg_img.png") no-repeat 100px 70px;
+	width: 50%;
+	height: 710px;
+}
+
+.mobilephones img {margin: 170px 250px;}
+
+.form {margin-top: 20px;}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-weight: normal;
+}
+
+i {
+	background-color: #fff;
+	color: #3897F0;
+}
+
+button {
+	background-color: #3897F0;
+	color: #fff;
+	padding: 5px 50px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid #3897F0;
+	cursor: pointer;
+	width: 100%;
+}
+
+form {
+	border: 1px solid #E6E6E6;
+	padding: 15px 30px;
+	margin-bottom: 10px;
+}
+
+.or {
+	width: 30px;
+	height: 1px;
+	background-color: #999;
+}
+
+h2 {
+	text-align: center;
+	color: #999;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+form p {
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+}
+
+input {
+	margin-bottom: 10px;
+	padding: 12px 20px;
+	border: 1px solid #999;
+	border-radius: 4px;
+	width: 88%;
+}
+
+form a {
+	color: #999;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.login {border: 1px solid #E6E6E6;}
+
+.login p {
+	text-align: center;
+	font-size: 14px;
+}
+
+.login a {
+	text-decoration: none;
+	color: #3897F0;
+}
+
+.app {padding: 15px 40px;}
+
+.app p {
+	text-align: center;
+	font-size: 14px;
+}
+
+.app ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.app img {height: 40px;}
+
+footer {
+	background-color: #fff;
+	border: 1px solid #fff;
+	width: 100%;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 5px 10px;
+}
+
+footer ul li a {
+	text-decoration: none;
+	font-size: 10px;
+	color: #003569;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+small {
+	color: #AD9CA3;
+	margin-left: 150px;
+}
